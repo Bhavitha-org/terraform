@@ -4,12 +4,14 @@ variable "instances" {
 }
 
 variable "zone_id" {
-    default = "Z05013202FKF0ZL12WAOP"
+    default = "Z047633137OO0E33GOO9K"
 }
 
 variable "domain_name" {
     default = "exploreops.online"
 }
+
+
 
 
 
