@@ -10,11 +10,12 @@ resource "aws_instance" "example" {
         Project = "roboshop"
     }
 }
-
+#this resource is also block
 resource "aws_security_group" "allow_tls" {
     name = "allow_all_terraform"  
     description = "Allow TLS inbound traffic and all outbound traffic"
 
+#this egress and ingress are not map, it is block in terraform
     egress {
         from_port = 0
         to_port = 0
